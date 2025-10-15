@@ -1,9 +1,7 @@
 # airbnb-clone-project
 -A clone of the AirBnB web app built using modern web technologies
 
--The backend for the Airbnb Clone project is designed to provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments. This backend will support various functionalities required to mimic the core features of Airbnb, ensuring a smooth experience for users and hosts.
-
--This project aims to strengthen skills in full-stack web development, focusing on clean architecture, collaboration, and version control with Git and GitHub.
+-The backend for the Airbnb Clone project is designed to provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments. This backend will support various functionalities required to mimic the core features of Airbnb, ensuring a smooth experience for users and hosts
 
 ## Project Goals
 -User Management: Implement a secure system for user registration, authentication, and profile management.
@@ -74,5 +72,16 @@ DELETE /reviews/{review_id}/ - Delete a specific review
 -Authorization: Control what authenticated users can do, define roles and permissions "e.g., admin vs. user"
 -Input Validation: Prevent attackers from sending harmful data, validating and sanitizing all inputs to stop SQL injection, XSS, or command injection attacks
 -Encryption: Protect data in transit and at rest, using HTTPS (TLS/SSL) for all API communication to encrypt sensitive data like passwords or tokens
--Logging and Monitoring: Track API activity for unusual behavior, by using monitoring tools to detect failed logins, high traffic spikes, or suspicious access patterns.
--API Gateway: Use an API gateway (like AWS API Gateway or Kong) to manage and secure API traffic, which helps with authentication, rate limiting, and request routing.
+-Logging and Monitoring: Track API activity for unusual behavior, by using monitoring tools to detect failed logins, high traffic spikes, or suspicious access patterns
+-API Gateway: Use an API gateway (like AWS API Gateway or Kong) to manage and secure API traffic, which helps with authentication, rate limiting, and request routing
+
+## CI/CD Pipeline
+-Continuous Integration (CI) and Continuous Deployment (CD) are essential practices in modern software development. They automate the process of building, testing, and deploying code, ensuring faster delivery, fewer errors, and consistent quality
+
+-Why It’s Important: Implementing a CI/CD pipeline helps the Airbnb Clone project by: Automatically testing code changes before merging, Ensuring stable and reliable deployments, "reducing manual effort and human error" "allowing quick updates and continuous improvement"
+
+-Tools Used:
+GitHub Actions: Automates code testing, building, and deployment directly from the repository
+Docker: Packages the application into containers for consistent environments across development and production
+
+##
