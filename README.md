@@ -60,4 +60,11 @@ GET /reviews/{review_id}/ - Retrieve a specific review
 PUT /reviews/{review_id}/ - Update a specific review
 DELETE /reviews/{review_id}/ - Delete a specific review
 
-
+## Feature Breakdown
+-API Documentation: Provides clear details on all API endpoints, helping developers understand how to connect and interact with the system easily
+-User Authentication: Allows users to sign up, log in, and access the platform securely, protecting personal data and managing user roles (guest or host)
+-Property Management: Hosts can add, edit, or remove property listings with details like location, price, and images, making it easy to manage accommodations
+-Booking System: Enables guests to check availability and book properties. It prevents double bookings and manages reservation details smoothly
+-Payment Processing: Handles secure online payments for bookings, ensuring all transactions are safe, tracked, and verified
+-Review System: Lets users rate and review properties after their stay, promoting trust and helping maintain service quality
+-Database Optimizations: Improves speed and performance by organizing and optimizing how data is stored and retrieved
