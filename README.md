@@ -1,9 +1,9 @@
 # airbnb-clone-project
-A clone of the AirBnB web app built using modern web technologies
+-A clone of the AirBnB web app built using modern web technologies
 
-The backend for the Airbnb Clone project is designed to provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments. This backend will support various functionalities required to mimic the core features of Airbnb, ensuring a smooth experience for users and hosts.
+-The backend for the Airbnb Clone project is designed to provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments. This backend will support various functionalities required to mimic the core features of Airbnb, ensuring a smooth experience for users and hosts.
 
-This project aims to strengthen skills in full-stack web development, focusing on clean architecture, collaboration, and version control with Git and GitHub.
+-This project aims to strengthen skills in full-stack web development, focusing on clean architecture, collaboration, and version control with Git and GitHub.
 
 ## Project Goals
 -User Management: Implement a secure system for user registration, authentication, and profile management.
@@ -29,4 +29,35 @@ This project aims to strengthen skills in full-stack web development, focusing o
 -Docker: Containerization tool for consistent development and deployment environments.
 -CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
-## 
+## Database Design
+-"Users, Properties, Bookings, Reviews, and Payments"
+
+-Users
+GET /users/ - List all users
+POST /users/ - Create a new user
+GET /users/{user_id}/ - Retrieve a specific user
+PUT /users/{user_id}/ - Update a specific user
+DELETE /users/{user_id}/ - Delete a specific user
+
+-Properties
+GET /properties/ - List all properties
+POST /properties/ - Create a new property
+GET /properties/{property_id}/ - Retrieve a specific property
+PUT /properties/{property_id}/ - Update a specific property
+DELETE /properties/{property_id}/ - Delete a specific property
+
+-Bookings
+GET /bookings/ - List all bookings
+POST /bookings/ - Create a new booking
+GET /bookings/{booking_id}/ - Retrieve a specific booking
+PUT /bookings/{booking_id}/ - Update a specific booking
+DELETE /bookings/{booking_id}/ - Delete a specific booking
+
+-Reviews
+GET /reviews/ - List all reviews
+POST /reviews/ - Create a new review
+GET /reviews/{review_id}/ - Retrieve a specific review
+PUT /reviews/{review_id}/ - Update a specific review
+DELETE /reviews/{review_id}/ - Delete a specific review
+
+
