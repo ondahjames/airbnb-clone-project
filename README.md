@@ -19,7 +19,7 @@ This project aims to strengthen skills in full-stack web development, focusing o
 -DevOps Engineer: The link between operations and development teams "Handles deployment, monitoring, and scaling of the backend services"
 -Quality Assurance Engineer: Software Tester, the one who verify application requirements "Ensures the backend functionalities are thoroughly tested and meet quality standards"
 
-## Tech Stack
+## Technology Stack
 -Django: A high-level Python web framework used for building the RESTful API.
 -Django REST Framework: Provides tools for creating and managing RESTful APIs.
 -PostgreSQL: A powerful relational database used for data storage.
