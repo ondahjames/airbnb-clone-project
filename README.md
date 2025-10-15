@@ -68,3 +68,11 @@ DELETE /reviews/{review_id}/ - Delete a specific review
 -Payment Processing: Handles secure online payments for bookings, ensuring all transactions are safe, tracked, and verified
 -Review System: Lets users rate and review properties after their stay, promoting trust and helping maintain service quality
 -Database Optimizations: Improves speed and performance by organizing and optimizing how data is stored and retrieved
+
+## API Security
+-Authentication: Ensure only verified users or systems can access your API, use OAuth 2.0, JWT (JSON Web Tokens), or API keys
+-Authorization: Control what authenticated users can do, define roles and permissions "e.g., admin vs. user"
+-Input Validation: Prevent attackers from sending harmful data, validating and sanitizing all inputs to stop SQL injection, XSS, or command injection attacks
+-Encryption: Protect data in transit and at rest, using HTTPS (TLS/SSL) for all API communication to encrypt sensitive data like passwords or tokens
+-Logging and Monitoring: Track API activity for unusual behavior, by using monitoring tools to detect failed logins, high traffic spikes, or suspicious access patterns.
+-API Gateway: Use an API gateway (like AWS API Gateway or Kong) to manage and secure API traffic, which helps with authentication, rate limiting, and request routing.
